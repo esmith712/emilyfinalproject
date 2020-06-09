@@ -1,3 +1,4 @@
 # emilyfinalproject
 my final project
-- Javascript - Project To-do List 
+- Javascript - A Project To-do List, with checkboxes and a delete/remove option
+
