@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar a {
+  float: left;
+  color: #b9b4b4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  color: white;
+}
+
+
+.slide-content {
+  margin: 0;
+  padding: 0;
+  
+  width: 100%;
+  height: 50vh;
+  overflow-x: hidden;
+}
+
+.wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url("images/chicknic_table.jpg");
+}
+.slide2 {
+  background-image: url("images/christmastree2.jpg");
+}
+.slide3 {
+  background-image: url("images/picnic_table.jpg");
+}
+.slide4 {
+  background-image: url("images/coatrack.jpg");
+}
+.slide5 {
+  background-image: url("images/raisedbed.jpg");
+}
+
+.slide-content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent rgb(44, 42, 42) transparent transparent;
+  left: 0;
+  margin-left: 550px;
+}
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent rgb(44, 37, 37);
+  right: 0;
+  margin-right: 550px;
+}
+
+h1 {
+  font-size: x-large;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+p {
+  color: aliceblue;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
